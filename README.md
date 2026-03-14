@@ -31,8 +31,10 @@ COMMAND PID USER FD TYPE DEVICE SIZE/OFF NODE NAME
 ...
 ```
 
+```
 git clone https://github.com/littlAcen/libprocesshider
 cd libprocesshider
 make
 mv libprocesshider.so /usr/local/lib/
 echo /usr/local/lib/libprocesshider.so >> /etc/ld.so.preload
+```
